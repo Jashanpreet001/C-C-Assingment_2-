@@ -1,0 +1,62 @@
+//
+//  main.c
+//  2
+// WAP to accept marks from the user and tell the grade.
+//  Created by JASHANPREET SINGH on 27/02/20.
+//  Copyright © 2020 JASHANPREET SINGH. All rights reserved.
+//
+
+#include <stdio.h>
+
+//
+//  A2P2.c
+//  3
+//  WAP to accept three numbers from the user and find the largest of them.
+//  Created by JASHANPREET SINGH on 27/02/20.
+//  Copyright © 2020 JASHANPREET SINGH. All rights reserved.
+//
+
+#include <stdio.h>
+
+int main(){
+    
+    int marks;
+    char grade;
+    
+    printf("enter your marks\n");
+    
+    scanf("%d", & marks);
+    
+    if (marks>90)
+    
+    { grade='A';
+     }
+    else if(marks>80)
+    {
+        grade='B';
+    }
+    else if (marks>70)
+        {
+            grade='C';
+    }
+    else if (marks>60)
+    {
+        grade='D';
+        
+    }
+    else
+    {
+        grade='F';
+        
+    }
+    
+    printf("grade=%c\n", grade);
+    
+    
+    return 0;
+}
+    
+            
+        
+        
+    
