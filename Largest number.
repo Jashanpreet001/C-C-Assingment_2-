@@ -1,0 +1,54 @@
+//
+//  main.c
+//  2
+// Wap to accept three numbers from the user and determine the largest.
+//  Created by JASHANPREET SINGH on 27/02/20.
+//  Copyright © 2020 JASHANPREET SINGH. All rights reserved.
+//
+
+#include <stdio.h>
+
+//
+//  A2P2.c
+//  3
+//  WAP to accept three numbers from the user and find the largest of them.
+//  Created by JASHANPREET SINGH on 27/02/20.
+//  Copyright © 2020 JASHANPREET SINGH. All rights reserved.
+//
+
+#include <stdio.h>
+
+int main(){
+    
+    int a, b, c;
+    
+    printf("enter three numbers to compare");
+    scanf ("%d%d%d",&a,&b,&c);
+    
+    if(a>b)
+    {
+        if(a>c)
+        { printf("%d is the largest",a);
+        }
+        {   if(c>a)
+            printf("%d is the largest",c);
+        }
+    }
+     else
+       {if(b>c)
+           printf("%d is the largest",b);
+       }
+       if(c>b)
+       { printf("%d is the largest",c);
+           
+        }
+       
+    return 0;
+        
+    }
+    
+    
+            
+        
+        
+    
